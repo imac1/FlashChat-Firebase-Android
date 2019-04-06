@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "703777233627",
+    "firebase_url": "https://fir-chatandroid-5a7c5.firebaseio.com",
+    "project_id": "fir-chatandroid-5a7c5",
+    "storage_bucket": "fir-chatandroid-5a7c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703777233627:android:014b0932a276358b",
+        "android_client_info": {
+          "package_name": "com.imac.flashchatnewfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703777233627-uql3hrmgq453ltclifek2hq6nb79qose.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGUwgioWcMUY4ZYrJCDiqxtySzRjhLZQc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

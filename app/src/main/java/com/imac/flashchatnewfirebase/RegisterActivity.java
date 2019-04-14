@@ -135,7 +135,7 @@ public class RegisterActivity extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 Log.d("FlashChat", "createUser onComplete " + task.isSuccessful());
 
-                if (!task.isSuccessful()){
+                if (!task.isSuccessful()) {
                     Log.d("FlashChat", "user creation failed");
                     showErrorDialog("Registration attempt failed");
                 } else {
@@ -150,13 +150,12 @@ public class RegisterActivity extends AppCompatActivity {
 
 
     // TODO: Save the display name to Shared Preferences
-    private void saveDisplayName(){
+    private void saveDisplayName() {
         String displayName = mUsernameView.getText().toString();
         SharedPreferences prefs = getSharedPreferences(CHAT_PREFS, 0);
         prefs.edit().putString(DISPLAY_NAME_KEY, displayName).apply();
 
     }
-
 
 
     // TODO: Create an alert dialog to show in case registration failed
